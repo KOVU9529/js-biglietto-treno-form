@@ -10,13 +10,13 @@ generateButton.addEventListener('click',
 
         if (userAge === 'minorenne') {
             discount = price * 20 / 100;
-            userOffer= 'Biglietto ridotto 20%'
+            userOffer= 'Tariffa ridotta 20%'
         } else if ( userAge === 'over') {
             discount = price * 40 / 100;
-            userOffer= 'Biglietto ridotto 40%'
+            userOffer= 'Tariffa ridotta 40%'
         } else if ( userAge === 'maggiorenne'){
             price;
-            userOffer= 'Biglietto standard';
+            userOffer= 'Tariffa standard';
         }
 
         const finalPrice = price - discount;
@@ -25,6 +25,8 @@ generateButton.addEventListener('click',
         document.getElementById ('offer').innerHTML=userOffer;
         document.getElementById ('ticket-price').innerHTML= finalPrice.toFixed(2);
         document.getElementById ('ticket').classList.add ('active');
+        document.getElementById ('ticketone').classList.add ('active');
+
 
         let userCarrozza= Math.floor(Math.random()*9)+1;
         document.getElementById ('carrozza').innerHTML=userCarrozza;

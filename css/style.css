@@ -1,0 +1,51 @@
+body{
+    background-color: #b91450;
+    color: white;
+    text-align: center;
+}
+.user-form,
+#ticket{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #b91450;
+    width: 100%;
+}
+span{
+    color: black;
+}
+.form-item{
+    width: calc(96/3);
+    padding: 30px 0;
+}
+#ticket{
+    display: none;
+}
+#ticket.active{  
+    display: block;
+    display: flex;
+}
+#ticketone{
+    display: none;
+}
+#ticketone.active{
+    display: block;
+}
+button{
+    color: #b91450;
+    border: 1px groove #b91450;
+    border-radius: 10px;
+    padding: 5px 10px;
+}#ticket div{
+    padding: 30px 0;
+}
+.name-details{
+    background-color: #eb6b9a;
+    border: 1px solid #b91450;
+    border-radius: 20px;
+}
+
+
