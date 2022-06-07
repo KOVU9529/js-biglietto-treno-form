@@ -47,5 +47,11 @@ button{
     border: 1px solid #b91450;
     border-radius: 20px;
 }
+#ticketone.none{
+    display: none;
+}
 
+#ticket.none{
+    display: none;
+}
 

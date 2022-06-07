@@ -41,5 +41,8 @@ cancelTicket.addEventListener('click',
        document.getElementById ('user-name').value='';
        document.getElementById ('user-km').value='';
        document.getElementById ('user-age').value='Mggiorenne';
+       document.getElementById ('ticketone').classList.add ('none');
+       document.getElementById ('ticket').classList.add ('none');
+
     }
 );
